@@ -1,5 +1,6 @@
 ### EX7 Implementation of Link Analysis using HITS Algorithm
-### DATE: 
+### DATE: 25-05-2026
+
 ### AIM: To implement Link Analysis using HITS Algorithm in Python.
 ### Description:
 <div align = "justify">
@@ -30,6 +31,9 @@ in a network of web pages based on the structure of the links between them.
 
 6. ***Visualization:***
     <p>    Visualize using bar chart to represent authority and hub scores.
+
+## Name: RAMYA R
+## Reg No: 212223230169
 
 ### Program:
 
@@ -66,9 +70,10 @@ def hits_algorithm(adjacency_matrix, max_iterations=100, tol=1.0e-6):
 # Example adjacency matrix (replace this with your own data)
 # For simplicity, using a random adjacency matrix
 adj_matrix = np.array([
-    [0, 1, 1],
-    [1, 0, 0],
-    [1, 0, 0]
+    [0,1,1,1],
+    [1,0,1,1],
+    [0,0,0,0],
+    [0,0,1,0]
 ])
 
 # Run HITS algorithm
@@ -93,5 +98,8 @@ plt.show()
 ```
 
 ### Output:
+<img width="718" height="112" alt="image" src="https://github.com/user-attachments/assets/2f5b1e29-d2cb-420b-b8c5-44e56f7fc7c0" />
+
+<img width="887" height="664" alt="image" src="https://github.com/user-attachments/assets/0e8ddef8-8f40-4967-9584-f5f3502672b2" />
 
 ### Result:
